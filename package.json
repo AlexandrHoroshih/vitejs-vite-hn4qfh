@@ -1,0 +1,18 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:ci": "VITEST_SEGFAULT_RETRY=3 vitest run"
+  },
+  "devDependencies": {
+    "vite": "^3.2.1"
+  },
+  "dependencies": {
+    "vitest": "^0.24.5"
+  }
+}
